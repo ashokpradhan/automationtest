@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20035" started-at="2020-09-24T10:52:09Z" finished-at="2020-09-24T10:52:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20035" started-at="2020-09-24T10:52:09Z" finished-at="2020-09-24T10:52:29Z">
+      <class name="com.validlog.test.SendDetailsTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.validlog.test.SendDetailsTest@26be92ad]" name="initialization" is-config="true" duration-ms="15013" started-at="2020-09-24T16:22:09Z" finished-at="2020-09-24T16:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="check()[pri:0, instance:com.validlog.test.SendDetailsTest@26be92ad]" name="check" duration-ms="4076" started-at="2020-09-24T16:22:24Z" finished-at="2020-09-24T16:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.validlog.test.SendDetailsTest@26be92ad]" name="tearDown" is-config="true" duration-ms="862" started-at="2020-09-24T16:22:28Z" finished-at="2020-09-24T16:22:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check status=SUCCESS method=SendDetailsTest.check()[pri:0, instance:com.validlog.test.SendDetailsTest@26be92ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.validlog.test.SendDetailsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
